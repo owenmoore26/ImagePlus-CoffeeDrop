@@ -1,0 +1,20 @@
+PODS:
+  - PureLayout (3.0.2)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - PureLayout
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PureLayout
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 17ceffd84cde58bba7156fd99926e0fb49081d49
+
+COCOAPODS: 1.5.3

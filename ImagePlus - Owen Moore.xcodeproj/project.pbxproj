@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180F4EFA2119C3E300DD4276 /* clickThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180F4EF92119C3E300DD4276 /* clickThroughViewController.swift */; };
 		183CAE2821186DDF00799D89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CAE2721186DDF00799D89 /* AppDelegate.swift */; };
-		183CAE2A21186DDF00799D89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CAE2921186DDF00799D89 /* ViewController.swift */; };
-		183CAE2D21186DDF00799D89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183CAE2B21186DDF00799D89 /* Main.storyboard */; };
 		183CAE2F21186DE100799D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183CAE2E21186DE100799D89 /* Assets.xcassets */; };
 		183CAE3221186DE100799D89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183CAE3021186DE100799D89 /* LaunchScreen.storyboard */; };
 		183CAE3D21186DE100799D89 /* ImagePlus___Owen_MooreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CAE3C21186DE100799D89 /* ImagePlus___Owen_MooreTests.swift */; };
 		183CAE4821186DE100799D89 /* ImagePlus___Owen_MooreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CAE4721186DE100799D89 /* ImagePlus___Owen_MooreUITests.swift */; };
+		183CAE5621186EF600799D89 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CAE5521186EF600799D89 /* MainViewController.swift */; };
+		183CAE5D211875B200799D89 /* NetworkingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CAE5C211875B200799D89 /* NetworkingController.swift */; };
+		183CAE5F21187A9D00799D89 /* CoffeeDropLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CAE5E21187A9D00799D89 /* CoffeeDropLocations.swift */; };
+		183CAE612118882200799D89 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CAE602118882200799D89 /* View.swift */; };
+		7D52FB71814300BFDDE35FE4 /* Pods_ImagePlus___Owen_Moore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA8F047C53D271E6B2B27C3 /* Pods_ImagePlus___Owen_Moore.framework */; };
+		B3EAE8BCBC6D89D853550B72 /* Pods_ImagePlus___Owen_MooreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FDBA767FBCDE994E0E2D4F /* Pods_ImagePlus___Owen_MooreTests.framework */; };
+		C95F4A2AF59667963FC66DED /* Pods_ImagePlus___Owen_MooreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8CF5414159B5BC868D9130 /* Pods_ImagePlus___Owen_MooreUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03FDBA767FBCDE994E0E2D4F /* Pods_ImagePlus___Owen_MooreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_ImagePlus___Owen_MooreTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		180F4EF92119C3E300DD4276 /* clickThroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clickThroughViewController.swift; sourceTree = "<group>"; };
 		183CAE2421186DDF00799D89 /* ImagePlus - Owen Moore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImagePlus - Owen Moore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		183CAE2721186DDF00799D89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		183CAE2921186DDF00799D89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		183CAE2C21186DDF00799D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		183CAE2E21186DE100799D89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		183CAE3121186DE100799D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		183CAE3321186DE100799D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +53,18 @@
 		183CAE4321186DE100799D89 /* ImagePlus - Owen MooreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImagePlus - Owen MooreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		183CAE4721186DE100799D89 /* ImagePlus___Owen_MooreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImagePlus___Owen_MooreUITests.swift"; sourceTree = "<group>"; };
 		183CAE4921186DE100799D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183CAE5521186EF600799D89 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		183CAE5C211875B200799D89 /* NetworkingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingController.swift; sourceTree = "<group>"; };
+		183CAE5E21187A9D00799D89 /* CoffeeDropLocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDropLocations.swift; sourceTree = "<group>"; };
+		183CAE602118882200799D89 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		200FA9B0EF25F31712DA5A5C /* Pods-ImagePlus - Owen Moore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePlus - Owen Moore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImagePlus - Owen Moore/Pods-ImagePlus - Owen Moore.debug.xcconfig"; sourceTree = "<group>"; };
+		3ED7CC00B4D6613484EDD986 /* Pods-ImagePlus - Owen Moore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePlus - Owen Moore.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImagePlus - Owen Moore/Pods-ImagePlus - Owen Moore.release.xcconfig"; sourceTree = "<group>"; };
+		4481A1D1E93BD2CA50D00A65 /* Pods-ImagePlus - Owen MooreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePlus - Owen MooreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImagePlus - Owen MooreTests/Pods-ImagePlus - Owen MooreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BA8F047C53D271E6B2B27C3 /* Pods_ImagePlus___Owen_Moore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_ImagePlus___Owen_Moore.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4791F9D2567D11D6D37106D /* Pods-ImagePlus - Owen MooreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePlus - Owen MooreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImagePlus - Owen MooreUITests/Pods-ImagePlus - Owen MooreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE8CF5414159B5BC868D9130 /* Pods_ImagePlus___Owen_MooreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_ImagePlus___Owen_MooreUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB25A3E900320947A783B76A /* Pods-ImagePlus - Owen MooreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePlus - Owen MooreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImagePlus - Owen MooreUITests/Pods-ImagePlus - Owen MooreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CFEAC81740964839DEEFE692 /* Pods-ImagePlus - Owen MooreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePlus - Owen MooreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImagePlus - Owen MooreTests/Pods-ImagePlus - Owen MooreTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D52FB71814300BFDDE35FE4 /* Pods_ImagePlus___Owen_Moore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3EAE8BCBC6D89D853550B72 /* Pods_ImagePlus___Owen_MooreTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C95F4A2AF59667963FC66DED /* Pods_ImagePlus___Owen_MooreUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,8 @@
 				183CAE3B21186DE100799D89 /* ImagePlus - Owen MooreTests */,
 				183CAE4621186DE100799D89 /* ImagePlus - Owen MooreUITests */,
 				183CAE2521186DDF00799D89 /* Products */,
+				B45F3612DF814041D3C5E3F2 /* Pods */,
+				ADB1153D70681A6408D57E13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				183CAE2721186DDF00799D89 /* AppDelegate.swift */,
-				183CAE2921186DDF00799D89 /* ViewController.swift */,
-				183CAE2B21186DDF00799D89 /* Main.storyboard */,
+				183CAE592118717B00799D89 /* Model */,
+				183CAE582118717300799D89 /* View */,
+				183CAE572118716700799D89 /* Controller */,
 				183CAE2E21186DE100799D89 /* Assets.xcassets */,
 				183CAE3021186DE100799D89 /* LaunchScreen.storyboard */,
 				183CAE3321186DE100799D89 /* Info.plist */,
@@ -125,6 +149,55 @@
 			path = "ImagePlus - Owen MooreUITests";
 			sourceTree = "<group>";
 		};
+		183CAE572118716700799D89 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				183CAE5521186EF600799D89 /* MainViewController.swift */,
+				180F4EF92119C3E300DD4276 /* clickThroughViewController.swift */,
+				183CAE5C211875B200799D89 /* NetworkingController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		183CAE582118717300799D89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				183CAE602118882200799D89 /* View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		183CAE592118717B00799D89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				183CAE5E21187A9D00799D89 /* CoffeeDropLocations.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ADB1153D70681A6408D57E13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BA8F047C53D271E6B2B27C3 /* Pods_ImagePlus___Owen_Moore.framework */,
+				03FDBA767FBCDE994E0E2D4F /* Pods_ImagePlus___Owen_MooreTests.framework */,
+				AE8CF5414159B5BC868D9130 /* Pods_ImagePlus___Owen_MooreUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B45F3612DF814041D3C5E3F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				200FA9B0EF25F31712DA5A5C /* Pods-ImagePlus - Owen Moore.debug.xcconfig */,
+				3ED7CC00B4D6613484EDD986 /* Pods-ImagePlus - Owen Moore.release.xcconfig */,
+				4481A1D1E93BD2CA50D00A65 /* Pods-ImagePlus - Owen MooreTests.debug.xcconfig */,
+				CFEAC81740964839DEEFE692 /* Pods-ImagePlus - Owen MooreTests.release.xcconfig */,
+				A4791F9D2567D11D6D37106D /* Pods-ImagePlus - Owen MooreUITests.debug.xcconfig */,
+				CB25A3E900320947A783B76A /* Pods-ImagePlus - Owen MooreUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 183CAE4C21186DE100799D89 /* Build configuration list for PBXNativeTarget "ImagePlus - Owen Moore" */;
 			buildPhases = (
+				218E60CBED9AC3B6056AFDAA /* [CP] Check Pods Manifest.lock */,
 				183CAE2021186DDF00799D89 /* Sources */,
 				183CAE2121186DDF00799D89 /* Frameworks */,
 				183CAE2221186DDF00799D89 /* Resources */,
+				50594C6E66B7811C108E3359 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 183CAE4F21186DE100799D89 /* Build configuration list for PBXNativeTarget "ImagePlus - Owen MooreTests" */;
 			buildPhases = (
+				12ED0ED6CF532C06B9F37110 /* [CP] Check Pods Manifest.lock */,
 				183CAE3421186DE100799D89 /* Sources */,
 				183CAE3521186DE100799D89 /* Frameworks */,
 				183CAE3621186DE100799D89 /* Resources */,
@@ -167,6 +243,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 183CAE5221186DE100799D89 /* Build configuration list for PBXNativeTarget "ImagePlus - Owen MooreUITests" */;
 			buildPhases = (
+				B4E8806955CD4F1394048C09 /* [CP] Check Pods Manifest.lock */,
 				183CAE3F21186DE100799D89 /* Sources */,
 				183CAE4021186DE100799D89 /* Frameworks */,
 				183CAE4121186DE100799D89 /* Resources */,
@@ -231,7 +308,6 @@
 			files = (
 				183CAE3221186DE100799D89 /* LaunchScreen.storyboard in Resources */,
 				183CAE2F21186DE100799D89 /* Assets.xcassets in Resources */,
-				183CAE2D21186DDF00799D89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +327,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12ED0ED6CF532C06B9F37110 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImagePlus - Owen MooreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		218E60CBED9AC3B6056AFDAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImagePlus - Owen Moore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50594C6E66B7811C108E3359 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ImagePlus - Owen Moore/Pods-ImagePlus - Owen Moore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImagePlus - Owen Moore/Pods-ImagePlus - Owen Moore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4E8806955CD4F1394048C09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImagePlus - Owen MooreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		183CAE2021186DDF00799D89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				183CAE2A21186DDF00799D89 /* ViewController.swift in Sources */,
+				180F4EFA2119C3E300DD4276 /* clickThroughViewController.swift in Sources */,
 				183CAE2821186DDF00799D89 /* AppDelegate.swift in Sources */,
+				183CAE5F21187A9D00799D89 /* CoffeeDropLocations.swift in Sources */,
+				183CAE612118882200799D89 /* View.swift in Sources */,
+				183CAE5D211875B200799D89 /* NetworkingController.swift in Sources */,
+				183CAE5621186EF600799D89 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +450,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		183CAE2B21186DDF00799D89 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				183CAE2C21186DDF00799D89 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		183CAE3021186DE100799D89 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,11 +577,13 @@
 		};
 		183CAE4D21186DE100799D89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200FA9B0EF25F31712DA5A5C /* Pods-ImagePlus - Owen Moore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 543PV4P4A8;
 				INFOPLIST_FILE = "ImagePlus - Owen Moore/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,17 +591,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.developerowenmoore.ImagePlus---Owen-Moore";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		183CAE4E21186DE100799D89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ED7CC00B4D6613484EDD986 /* Pods-ImagePlus - Owen Moore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 543PV4P4A8;
 				INFOPLIST_FILE = "ImagePlus - Owen Moore/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,12 +611,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.developerowenmoore.ImagePlus---Owen-Moore";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		183CAE5021186DE100799D89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4481A1D1E93BD2CA50D00A65 /* Pods-ImagePlus - Owen MooreTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +639,7 @@
 		};
 		183CAE5121186DE100799D89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFEAC81740964839DEEFE692 /* Pods-ImagePlus - Owen MooreTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +661,7 @@
 		};
 		183CAE5321186DE100799D89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4791F9D2567D11D6D37106D /* Pods-ImagePlus - Owen MooreUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +682,7 @@
 		};
 		183CAE5421186DE100799D89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB25A3E900320947A783B76A /* Pods-ImagePlus - Owen MooreUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
